@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form
+      </title>
+      <link rel="stylesheet" href="css/styles.css"/>
+      <head>
+        <body>
+          <div class="body">
+            <h1 id="title">Survey Form</h1>
+            <p> This survey is for the web development internship</p>
+            <form id=survey-form>
+              <label for="name">NAME:</label></br>
+              <input id="name" type="text" placeholder="Enter your name:"
+              required/></br>
+              <label for="email">EMAIL:</label></br>
+              <input id="email" type="email" placeholder="Enter your email address:" required></br>
+              <label for="age">AGE(optional):</label></br>
+              <input id="age" type="number" placeholder="Enter your age:" min=18 max=100/>
+            </form>
+            <form id="dropdown">
+            <p>What is your current position?</p>
+            <select id="drop-down" > 
+              <option disabled>Select your role:</option>
+              <option value="UG course">UG course</option>
+              <option value="PG course">PG course</option>
+              <option value="Part-time">Part-time job</option>
+              <option value="Full-time">Full-time job</option>
+              </select>
+              </form>
+              <form id="name">
+                <p>How did you come accross this internship offer?</p></br>
+                
+                <input type="radio" name="levels" id="google" value="google"/>
+                <label for="google">Google</label></br>
+                 <input type="radio" name="levels" id="friend" value="friend"/>
+                <label for="friend">Friend</label></br>
+                 <input type="radio" name="levels" id="Workplace" value="Workplace"/>
+                <label for="Workplace">Workplace/University</label>
+  </form>
+
+<form id="checkbox">
+  <p> What are your technical skills?</p>
+ 
+  <input type="checkbox" id="html" value="html"/>
+   <label for="html"> HTML and CSS</label></br>
+   <input type="checkbox" id="ui" value="ui"/>
+   <label for="ui">UI/UX design</label></br>
+   <input type="checkbox" id="web" value="web"/>
+   <label for="web">Web designing</label></br>
+   <input type="checkbox" id="react" value="react"/>
+   <label for="html">React/Angular</label></br>
+   <input type="checkbox" id="front" value="front"/>
+   <label for="front"> Front-end developer</label></br>
+   <input type="checkbox" id="full" value="full"/>
+   <label for="full"> Full stack developer</label></br>
+   </form>
+   <form id=text-area>
+     <p>Why should I give you this job</p>
+     <textarea rows="10" cols="50"></textarea>
+</form>
+<form id="submit">
+  <input type="submit" name="submit" id="submit"/>
+  </form>
+  </div>
+  
+
+
+
+
+          </body>
+          </html>

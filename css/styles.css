@@ -1,0 +1,15 @@
+.body{
+    
+    padding-right: 150px;
+    padding-left: 300px;
+    background-color: rgb(58, 25, 163);
+    margin:30px 300px 30px 300px;
+    border: 5px solid white;
+    color:white;
+   
+}
+body{
+    background: url(../images/black.png);
+
+   
+}
